@@ -1,0 +1,40 @@
+os: linux
+dist: xenial
+language: cpp
+compiler: gcc
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - libboost-all-dev
+    - libboost-test-dev
+    - g++-8
+    - doxygen
+    - doxygen-doc
+    - doxygen-latex
+    - doxygen-gui
+    - graphviz
+env:
+  - MATRIX_EVAL="CC=gcc-8 && CXX=g++-8"
+before_install:
+  - eval "${MATRIX_EVAL}"
+script:
+- doxygen Doxyfile
+- cmake .
+- cmake --build .
+- cmake --build . --target test
+- cmake --build . --target package
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script:
+      - curl -f -T bulk_server-0.0.${TRAVIS_BUILD_NUMBER}-Linux.deb -usergeina:${BINTRAY_API_KEY} "https://api.bintray.com/content/sergeina/otus/homework/${TRAVIS_BUILD_NUMBER}/bulk_server-0.0.${TRAVIS_BUILD_NUMBER}-Linux.deb;deb_distribution=xenial;deb_component=main;deb_architecture=amd64;publish=1"
+    on:
+      branch: master
+  - provider: pages
+    skip_cleanup: true
+    local_dir: $TRAVIS_BUILD_DIR/doxygen/html
+    github_token: $GH_REPO_TOKEN
+    on:
+      branch: master
