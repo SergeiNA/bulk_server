@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.9)
 
 if(DEFINED ENV{TRAVIS_BUILD_NUMBER})
-    project(async VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
+    project(bulk_server VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 else()
-    project(async VERSION 7.7.7)
+    project(bulk_server VERSION 7.7.7)
 endif()
 
 set(CMAKE_CXX_STANDARD 17)
