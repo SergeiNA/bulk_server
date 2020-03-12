@@ -1,0 +1,9 @@
+<map id="server.h" name="server.h">
+<area shape="rect" id="node6" href="$async__queue_8h.html" title="async_queue.h" alt="" coords="474,80,585,107"/>
+<area shape="rect" id="node7" href="$async__adaptor_8h.html" title="Async adapter class for bulk_server. " alt="" coords="470,155,589,181"/>
+<area shape="rect" id="node8" href="$command__handler_8h.html" title="Declaration of commands container and commands handler QueueCommand is able to bulk commands if condi..." alt="" coords="376,229,515,256"/>
+<area shape="rect" id="node23" href="$connectionManager_8h.html" title="Connection ID factory. " alt="" coords="539,229,685,256"/>
+<area shape="rect" id="node9" href="$observer_8h.html" title="observer pattern implementation " alt="" coords="179,453,261,480"/>
+<area shape="rect" id="node16" href="$threadManager_8h.html" title="ThreadManager is implementation of multithreadind queue with several workers. " alt="" coords="399,304,518,331"/>
+<area shape="rect" id="node21" href="$metrics_8h.html" title="Declaration of metric collectors classes. " alt="" coords="182,379,258,405"/>
+</map>

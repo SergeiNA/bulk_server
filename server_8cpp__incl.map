@@ -1,0 +1,10 @@
+<map id="server.cpp" name="server.cpp">
+<area shape="rect" id="node2" href="$server_8h.html" title="Simple async server based on boost asio. " alt="" coords="809,80,879,107"/>
+<area shape="rect" id="node7" href="$async__queue_8h.html" title="async_queue.h" alt="" coords="474,155,585,181"/>
+<area shape="rect" id="node8" href="$async__adaptor_8h.html" title="Async adapter class for bulk_server. " alt="" coords="470,229,589,256"/>
+<area shape="rect" id="node9" href="$command__handler_8h.html" title="Declaration of commands container and commands handler QueueCommand is able to bulk commands if condi..." alt="" coords="376,304,515,331"/>
+<area shape="rect" id="node24" href="$connectionManager_8h.html" title="Connection ID factory. " alt="" coords="539,304,685,331"/>
+<area shape="rect" id="node10" href="$observer_8h.html" title="observer pattern implementation " alt="" coords="179,528,261,555"/>
+<area shape="rect" id="node17" href="$threadManager_8h.html" title="ThreadManager is implementation of multithreadind queue with several workers. " alt="" coords="399,379,518,405"/>
+<area shape="rect" id="node22" href="$metrics_8h.html" title="Declaration of metric collectors classes. " alt="" coords="182,453,258,480"/>
+</map>

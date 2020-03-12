@@ -1,0 +1,17 @@
+<map id="metrics.h" name="metrics.h">
+<area shape="rect" id="node2" href="$threadManager_8h.html" title="ThreadManager is implementation of multithreadind queue with several workers. " alt="" coords="495,80,613,107"/>
+<area shape="rect" id="node16" href="$metrics_8cpp.html" title="Metrics classes implementation. " alt="" coords="638,80,729,107"/>
+<area shape="rect" id="node3" href="$command__handler_8h.html" title="Declaration of commands container and commands handler QueueCommand is able to bulk commands if condi..." alt="" coords="405,155,543,181"/>
+<area shape="rect" id="node15" href="$threadManager_8cpp.html" title="Implimintation of ThreadManager class. " alt="" coords="567,155,701,181"/>
+<area shape="rect" id="node4" href="$async__adaptor_8h.html" title="Async adapter class for bulk_server. " alt="" coords="157,229,276,256"/>
+<area shape="rect" id="node12" href="$command__handler_8cpp.html" title="Method definitoin of QueueCommand and CommandHandler. " alt="" coords="300,229,453,256"/>
+<area shape="rect" id="node13" href="$test__cmdhandler__nested_8cpp.html" title="test_cmdhandler_nested.cpp" alt="" coords="478,229,667,256"/>
+<area shape="rect" id="node14" href="$test__cmdhandler__regular_8cpp.html" title="test_cmdhandler_regular.cpp" alt="" coords="691,229,881,256"/>
+<area shape="rect" id="node5" href="$async__adaptor_8cpp.html" title="AsyncAdaptor definition. " alt="" coords="5,304,137,331"/>
+<area shape="rect" id="node6" href="$async__queue_8h.html" title="async_queue.h" alt="" coords="161,304,272,331"/>
+<area shape="rect" id="node11" href="$test__asyncAdaptor_8cpp.html" title="test_asyncAdaptor.cpp" alt="" coords="296,304,452,331"/>
+<area shape="rect" id="node7" href="$async__queue_8cpp.html" title="async_queue.cpp" alt="" coords="93,379,217,405"/>
+<area shape="rect" id="node8" href="$server_8h.html" title="Simple async server based on boost asio. " alt="" coords="242,379,311,405"/>
+<area shape="rect" id="node9" href="$main_8cpp.html" title="main.cpp" alt="" coords="187,453,262,480"/>
+<area shape="rect" id="node10" href="$server_8cpp.html" title="server.cpp" alt="" coords="286,453,369,480"/>
+</map>
