@@ -24,7 +24,8 @@ set (LIB_FILES
 
 
 set(SERVER_FILES main.cpp 
-                 server.h server.cpp)
+                 server.h server.cpp
+                ${LIB_FILES})
 
 set(TEST_FILES 
                 test_asyncAdaptor.cpp
@@ -83,7 +84,6 @@ set_target_properties(${TESTS} PROPERTIES
 
 
 target_link_libraries(bulk_server
-    async
     Threads::Threads
     ${Boost_LIBRARIES}
 )
